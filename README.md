@@ -5,6 +5,34 @@ This project implements a **Role-Based Access Control (RBAC)** system for managi
 
 ---
 
+
+🚀 How to Run
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/Abhi96k/VRV_Security_RBAC_Backend_Assignment-main.git  
+Navigate to the project directory:
+
+```markdown
+```bash
+cd VRV_Security_RBAC_Backend_Assignment-main
+```
+Install dependencies:
+
+```bash
+npm install
+```
+Create a `.env` file in the root directory and configure the environment variables.
+
+Start the server:
+
+```bash
+npm start
+```
+Access the application at `http://localhost:<PORT>`
+```
+
 ## 🌟 Features
 
 ### 🔒 **Authentication and Authorization**
