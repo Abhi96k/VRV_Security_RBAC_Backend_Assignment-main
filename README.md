@@ -255,6 +255,27 @@ Use **Postman** or similar API testing tools to test the endpoints.
 This project is licensed under the MIT License.
 ````
 
+### Planned Features:
+
+1. **Audit Logs**
+
+   - Track and record all user actions and administrative operations for accountability and transparency.
+
+2. **Custom Permissions**
+
+   - Extend the RBAC system to support user-specific custom permissions for granular access control.
+
+3. **Two-Factor Authentication (2FA)**
+
+   - Strengthen security by implementing 2FA during login for additional protection.
+
+4. **WebSocket Support**
+
+   - Enable real-time notifications for key actions, such as content approval or status updates for users.
+
+5. **Cache Layer**
+   - Integrate **Redis** or **Memcached** to cache frequently accessed data and reduce database load.
+
 VRV_Security_RBAC_Backend_Assignment/  
 ├── controllers/ # Contains controller logic for handling requests  
 ├── middlewares/ # Custom middleware for authentication and validation  
